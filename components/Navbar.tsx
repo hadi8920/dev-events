@@ -4,12 +4,12 @@ import Image  from "next/image"
 const Navbar = () => {
   return (
     <header>
-      <nav>
+      <nav>   
         <Link href="/" className="logo">
           <Image src="/icons/logo.png" alt="logo" width={24} height={24} />
 
           <p>Dev Event</p>
-        </Link>
+        </Link>    
 
         <ul>
             <Link href="/">Home</Link>
